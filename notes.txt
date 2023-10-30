@@ -1,0 +1,51 @@
+    DOM stands for Document Object Model
+
+    Just understand that almost every single interaction on your page , for example like slideshow on a carousel , navigation menu items all are result of the javascript accessing and manupuleting the dom.
+
+
+    1. Is the dom a programming language ?
+
+    No. DOM is not a programming language. However, without DOM the client side javascript would be prettey useless as it would not have any model for accessing HTML document.
+
+    2. Where does the DOM comes form?
+
+    The dom doesnot comes from javascript.
+    The Browser gives us the access to the Dom. This means that different browsers will have their own unique way of creating the DOM .
+
+    . EVERYTHING IN THE BROWSER CAN BE REPRESENTED AS A OBJECT.
+
+    When we start accessing this document Object . we have a whole lots of properties and methods available to us straight out of the box and we could access these properties and methods.
+
+
+    window.document
+    console.log()
+    console.dir(document)
+    document.forms
+
+    ##################################################
+
+    BOM stand for Browser Object Model
+
+    The console object gives you to asccess to the browser console. 
+    this console allowes the developers to log certain results and alerts and warning to the screen.
+    
+
+    How did we have that methods available to us. we, You need to understand the window object. the console is a part of the window object.
+
+    3. What is window object?
+    Window object is supplied by what is known as the browser Object Model of you can say for short as BOM.
+
+
+BOM allowes javascript to talk to the browser about things other than the content of the webpage.
+
+Javascript can also interect directectly with what the users looking at on the webpage.
+
+there is also other information that the browsers window gives us.
+
+
+4. What other information ? Well things like navigator , screen location , history etc.
+
+The window object is the root element of the whole website.
+
+Window provides two broad categories of functionality to us.
+
