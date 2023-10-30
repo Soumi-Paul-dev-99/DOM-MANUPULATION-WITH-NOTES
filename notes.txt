@@ -49,3 +49,32 @@ The window object is the root element of the whole website.
 
 Window provides two broad categories of functionality to us.
 
+It provides us with the document. Document means it"s the website like titles on the screen, buttons we can click on it.
+the other thing it gives us though, are things like i mentioned, the navigation , location , screen , history etc.
+
+
+Now we know that window object is. and each browser tab has its own window object.
+
+When you got two different tabs open in your browser,they can't share each other objects.
+
+The one has a window object and the other has an ectirely different window object.
+
+the other thing worth mentioning is that there is no standerds for the browser object model.
+
+We know like for javascript we have got the standerd ECMASCRIPT . well there are no standers for the bom and the html document.
+
+
+. You can access the window object properties using dots.
+. so window.console is how we can access the console object.
+
+If you remember we did not typed window.
+We just typed console. for window object there is no need to type window.
+
+##################################################
+
+Q. dom vs javascript ?
+q. what is the difference between Dom and the Javascript?
+DOM looks at our document object within our hierarchical structure.
+thats what DOM is ..
+
+At the very basic lavel , we now that every website consists of an HTML document and this document in a model
