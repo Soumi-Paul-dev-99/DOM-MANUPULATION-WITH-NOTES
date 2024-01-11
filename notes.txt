@@ -77,4 +77,65 @@ q. what is the difference between Dom and the Javascript?
 DOM looks at our document object within our hierarchical structure.
 thats what DOM is ..
 
-At the very basic lavel , we now that every website consists of an HTML document and this document in a model
+At the very basic lavel , we now that every website consists of an HTML document and this document in a model.  And we just so happen to call that model the DOM- Document Object Model
+
+This model allows javascript and other programming languages for that matter, to access elements of the website as Objects
+
+
+We can also manipulate it when the user clicks on the button, changing colors like that we can do by accessing and manipulating the DOM .
+
+But without it, Javascript and other programming languages do not have any model for accessing the webpage.
+
+Now you can understand that DOM and Javascript are completly different entities . 
+
+The page content is stored in the DOM And javascript is one of the different languages that is given access to all of this content.
+
+As a side note DOM is designed to be independent of any programming langiuage
+
+However we mostly use the javascript to access the DOM to manipulate the HTML, But you can also use python with the xml.
+
+When we use the DOM with the XML , DOM just structures that contain as tree of branches as nodes. Where each node in the tree is an Object.
+
+The more importent application of the DOM is learning how to use it with XML 
+
+Q. is dom same as html ?
+
+The DOM is not your HTML . There are two reasons why your HTML can differ from the DOM .
+
+First reason is that if you have errors in your HTML itself
+Second reason is when the dom is modified by javascript.
+lets look at these in more details . 
+
+When you have got errors in html . well remember that the DOM is the interface for valid HTML documents .
+
+During the process of creating the DOM the browser is going to correct some invalidation in your HTML.
+
+We know this is not a valid HTML. there is no head tag and body tag . If we look at the dom in our browser.
+
+Dom GONNA CREATE A HEAD TAG AND A BODY TAG AND WITHIN THE BODY TAG IT CREATED THE TEXT NODE.
+
+The another reason is when javascript modifies the DOM .
+
+DOM is also not what you see in the browser.
+
+You should know about the render tree. Render tree is nothing but the combination of the DOM and the CSSOM.
+
+So, it makes sense that the render tree will exclude certain elements that are not meant to be displayed.
+
+We have paragraph element set to display none.
+So what will happen from DOM point of view is that the DOM will eventually have this paragraph.But the render tree will excluded it from being painted on the screen. 
+DOM is alse not the same what is present in the dev tools.
+
+The difference is a bit more miniscule because the dev tools element inspector provides the closest approximation to the DOM that we have in the browser.
+But sometimes the devtools inspector includes additional information that is not a DOM.
+
+the best example is psudo elements.
+
+***************** ---------------****************
+
+Q. What is DOM api?
+Now we are comfortable that what DOM actually is.
+But the common confusion normally we have is the difference between the DOM and the javascript.
+In other words we are trying to understand that is the DOM same as the javascript. The short ans is no.
+
+The browser creates the DOM to render the page. And the Browser gives javascript access to the DOM which is a programming language.

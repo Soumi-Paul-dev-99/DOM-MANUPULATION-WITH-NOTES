@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1::before {
+        content: "*";
+      }
+      p::first-line {
+        color: red;
+      }
+      p.text::after {
+        content: "hello soumi";
+        color: rgb(87, 128, 0);
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Psudo elements</h1>
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, saepe
+      numquam, soluta omnis at iste culpa inventore eos optio cumque voluptas
+      alias excepturi vel reiciendis assumenda blanditiis harum ea nobis!
+    </p>
+    <p>
+      Pseudo elements css keyword provided in css to change the specific part of
+      an element ::
+    </p>
+    <p>:pseudo classes</p>
+    <p>Before , after , first-letter, first-line</p>
+    <p>selector::pseudo-element{ key: value }</p>
+  </body>
+</html>
